@@ -11,3 +11,6 @@ class LinearSearch {
                 break;
             }
         }
+           if(found == 0) {
+            System.out.println("Element not found");
+        }
