@@ -14,3 +14,4 @@ class LinearSearch {
            if(found == 0) {
             System.out.println("Element not found");
         }
+}
