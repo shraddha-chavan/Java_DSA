@@ -10,3 +10,9 @@ public class BinarySearch {
 
         System.out.print("Enter number to search: ");
         int key = sc.nextInt();
+        while (low <= high) {
+            mid = (low + high) / 2;
+
+            if (arr[mid] == key) {
+                System.out.println("Element found at index: " + mid);
+                return;
