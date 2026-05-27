@@ -16,3 +16,11 @@ public class BinarySearch {
             if (arr[mid] == key) {
                 System.out.println("Element found at index: " + mid);
                 return;
+              }
+            else if (arr[mid] < key) {
+                low = mid + 1;
+            }
+            else {
+                high = mid - 1;
+            }
+        }
