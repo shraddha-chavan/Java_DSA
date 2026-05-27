@@ -6,3 +6,7 @@ public class BinarySearch {
         int low = 0;
         int high = arr.length - 1;
         int mid;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number to search: ");
+        int key = sc.nextInt();
